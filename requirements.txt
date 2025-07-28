@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 #vereiste versies
+=======
+# vereiste versies
+>>>>>>> 44a8af5b2974db49e1abc1aac5959f9fa9588655
 streamlit>=1.28.0
 pandas>=2.0.0
 matplotlib>=3.7.0

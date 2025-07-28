@@ -4,6 +4,12 @@ from io import BytesIO
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
+import os
+
+if os.path.exists("makita_logo.png"):
+    st.image("makita_logo.png", width=500)
+else:
+    st.warning("⚠️ Logo niet gevonden.")
 
 
 st.set_page_config(page_title="CO₂ Calculator", layout="wide")
